@@ -1,5 +1,4 @@
 from funcoes import (criando_transacao, saldo, exibindo_transacao, lista_transacoes)
-import funcoes
 
 while True:
     escolha1 = input('Digite o numero da opção desejada:\n 1 - Criar nova transação\n 2 - Lista de transaçãoes\n 3 - Editar transação\n 4 - Ver o seu saldo\n 5 - Encerrar Aplicação\n')
