@@ -26,6 +26,7 @@ while True:
         else:
             novo_valor = float(novo_valor)
             lista_transacoes[numero_transacao].valor = novo_valor
+        print('Valor atualizado com sucesso!')
         continue
 
     elif escolha1 == '4':
