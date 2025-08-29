@@ -1,11 +1,18 @@
 from dataclasses import dataclass
 
 @dataclass
-class Livro:
-    titulo: str
-    autor: str
-    numero_de_paginas: int
+class Pessoa:
+    nome: str
+    idade: int
+    altura: float
+    peso: float
 
-meu_livro = Livro('Uma Breve Historia do Tempo', 'Stephen Hawking', 300)
-
-print(meu_livro.autor)
+    def editar_pessoa(self,escolha,edicao):
+        if escolha == 'nome':
+            self.nome = edicao
+        elif escolha == 'idade':
+            self.idade = edicao
+        elif escolha == 'altura':
+            self.altura = edicao
+        else:
+            self.peso = edicao

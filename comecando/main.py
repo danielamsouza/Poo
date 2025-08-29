@@ -1,9 +1,7 @@
-from carro import Carro
+from pessoa import Pessoa
 
-carro1 = Carro('Toyota', 'Etios')
-carro1.ligar_carro()
-carro1.ligar_carro()
-carro1.acelerar()
-carro1.desligar_carro()
-carro1.desligar_carro()
-carro1.acelerar()
+daniel = Pessoa('Daniel', 24, 1.78, 68)
+
+daniel.editar_pessoa('nome', 'Roberto')
+
+print(daniel)
